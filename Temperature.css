@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+  background-color: hsl(200, 20%, 15%);
+  font-family: "Raleway"
+}
+.dotSvg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(200, 60%, 30%);
+  color: white;
+  box-shadow: 0 0  32px 10px;
+  border-radius: 10px;
+}
+.cellLeg {
+  stroke-width: 1;
+  stroke: white;
+  stroke-opacity: 0.5;
+ 
+}
+#tooltip{
+  background-color: hsl(350,50%,50%);
+  padding: 20px;
+  border-radius: 6px;
+}
+.cell:hover{
+  stroke-width: 3;
+}
